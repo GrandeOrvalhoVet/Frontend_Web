@@ -14,7 +14,7 @@ export const useAuthStore = defineStore('auth', () => {
   const login = async (email, password) => {
     try {
       const response = await authService.login(email, password)
-      state.token = response.data.token
+      state.token = response.data.access
       state.loggedIn = true
     } catch (error) {
       state.token = null
