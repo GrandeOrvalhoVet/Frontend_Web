@@ -5,11 +5,11 @@ import { RouterLink } from 'vue-router'
 <template>
   <header>
     <div>
-      <h1><RouterLink to="/home">Home</RouterLink></h1>
-      <h1><RouterLink to="/animal">Animal</RouterLink></h1>
-      <h1><RouterLink to="/clientes">Clientes</RouterLink></h1>
-      <h1><RouterLink to="/consulta">Consultas</RouterLink></h1>
-      <h1><RouterLink to="/conta">Conta</RouterLink></h1>
+      <h2><RouterLink to="/home">Home</RouterLink></h2>
+      <h3><RouterLink to="/animal">Animal</RouterLink></h3>
+      <h3><RouterLink to="/clientes">Clientes</RouterLink></h3>
+      <h3><RouterLink to="/consulta">Consultas</RouterLink></h3>
+      <h3><RouterLink to="/conta">Conta</RouterLink></h3>
     </div>
   </header>
   <main>
@@ -24,7 +24,7 @@ header {
 div {
   display: flex;
 }
-h1 {
+h3 {
   margin: 20px;
 }
 main {
